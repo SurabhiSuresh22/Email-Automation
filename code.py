@@ -32,3 +32,5 @@ text = msg.as_string()
 mail.sendmail(frm_addr,to_addr,text)  #send mail
 mail.quit()         #terminate SMTP session
 
+print('Mail Sent')
+

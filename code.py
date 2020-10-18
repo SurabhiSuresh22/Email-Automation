@@ -14,7 +14,7 @@ msg['From']    = frm_addr
 msg['To']      = ",".join(to_addr)
 msg['subject'] = 'just to check'
 
-body = 'Hi guys'
+body = '----Your message here ----'
 
 #attach message
 msg.attach(MIMEText(body,'plain'))
